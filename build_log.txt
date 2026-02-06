@@ -1,0 +1,119 @@
+Initialized native services in: C:\Users\User\.gradle\native
+Initialized jansi services in: C:\Users\User\.gradle\native
+The client will now receive all logging from the daemon (pid: 20744). The daemon log file: C:\Users\User\.gradle\daemon\9.3.0\daemon-20744.out.log
+Starting 2nd build in daemon [uptime: 4 mins 2.164 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 16% of 384 MiB]
+Using 16 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [C:\Users\User\OneDrive\Desktop\cloud-media-uploader] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\User\OneDrive\Desktop\cloud-media-uploader\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\User\OneDrive\Desktop\cloud-media-uploader\build.gradle'.
+Included projects: [root project 'cloud-media-uploader']
+
+> Configure project :
+Evaluating root project 'cloud-media-uploader' using build file 'C:\Users\User\OneDrive\Desktop\cloud-media-uploader\build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '3.5.10']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'apiElements' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'archives' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'bootArchives' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'compileClasspath' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'compileOnly' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'default' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'developmentOnly' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'implementation' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'mainSourceElements' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'runtimeClasspath' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'runtimeElements' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'runtimeOnly' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'testCompileClasspath' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'testCompileOnly' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'testImplementation' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'cloud-media-uploader'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'cloud-media-uploader'
+All projects evaluated.
+Task name matched 'test'
+Selected primary task 'test' from project :
+Resolving global dependency management for project 'cloud-media-uploader'
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[#483,Execution worker,5,main]) started.
+:compileJava (Thread[#483,Execution worker,5,main]) started.
+
+> Task :compileJava UP-TO-DATE
+Custom actions are attached to task ':compileJava'.
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Skipping task ':compileJava' as it is up-to-date.
+Resolve mutations for :processResources (Thread[#483,Execution worker,5,main]) started.
+:processResources (Thread[#483,Execution worker,5,main]) started.
+
+> Task :processResources UP-TO-DATE
+Caching disabled for task ':processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':processResources' as it is up-to-date.
+Resolve mutations for :classes (Thread[#483,Execution worker,5,main]) started.
+:classes (Thread[#483,Execution worker,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :compileTestJava (Thread[#483,Execution worker,5,main]) started.
+:compileTestJava (Thread[#483,Execution worker,5,main]) started.
+
+> Task :compileTestJava UP-TO-DATE
+Custom actions are attached to task ':compileTestJava'.
+Caching disabled for task ':compileTestJava' because:
+  Build cache is disabled
+Skipping task ':compileTestJava' as it is up-to-date.
+Resolve mutations for :processTestResources (Thread[#483,Execution worker,5,main]) started.
+:processTestResources (Thread[#483,Execution worker,5,main]) started.
+
+> Task :processTestResources UP-TO-DATE
+Caching disabled for task ':processTestResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':processTestResources' as it is up-to-date.
+Resolve mutations for :testClasses (Thread[#483,Execution worker,5,main]) started.
+:testClasses (Thread[#483,Execution worker,5,main]) started.
+
+> Task :testClasses UP-TO-DATE
+Skipping task ':testClasses' as it has no actions.
+Resolve mutations for :test (Thread[#483,Execution worker,5,main]) started.
+:test (Thread[#483,Execution worker,5,main]) started.
+
+> Task :test FAILED
+Caching disabled for task ':test' because:
+  Build cache is disabled
+Task ':test' is not up-to-date because:
+  Task has failed previously.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> java.io.IOException: Unable to delete directory 'C:\Users\User\OneDrive\Desktop\cloud-media-uploader\build\test-results\test\binary'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 7s
+5 actionable tasks: 1 executed, 4 up-to-date
+Watched directory hierarchies: [C:\Users\User\OneDrive\Desktop\cloud-media-uploader]
