@@ -14,7 +14,7 @@ FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 
 # Build mərhələsindən yaranan JAR faylını kopyalayırıq
-COPY --from=build /app/build/libs/*.jar app.jar
+COPY --from=build /app/build/libs/app.jar app.jar
 
 # Portu açırıq
 EXPOSE 8080
